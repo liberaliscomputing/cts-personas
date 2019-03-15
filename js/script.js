@@ -56,7 +56,7 @@ d3.json('./data/graph.json', function (error, graph) {
       .style('stroke', 'black')
       .style('stroke-width', 0.5)
       .style('fill', function (d) {
-        return d.colour;
+        return '#000';
       });
 
   simulation.nodes(nodes)

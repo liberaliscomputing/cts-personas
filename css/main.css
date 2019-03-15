@@ -93,6 +93,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#root {
+	font-family: Sans-Serif;
+}
+
 .link {
 	fill: none;
 	stroke: #ddd;

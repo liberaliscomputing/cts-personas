@@ -1,0 +1,4 @@
+var graph = {
+  nodes: [],
+  edges: [],
+};

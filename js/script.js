@@ -35,7 +35,7 @@ d3.json('./data/graph.json', function (error, graph) {
 
   node.append('circle')
       .attr('class', 'node')
-      .attr('r', 8)
+      .attr('r', 6)
       .attr('fill', function (d) {
         return d.colour;
       })

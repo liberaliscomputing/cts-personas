@@ -10,8 +10,8 @@ var svg = d3.select('#root')
 var simulation = d3.forceSimulation()
   .force('link', d3.forceLink().id(function (d) {
     return d.id;
-  }).strength(0.1))
-  .force('charge', d3.forceManyBody().strength(-20))
+  }).strength(0.025))
+  .force('charge', d3.forceManyBody().strength(-90))
   .force('collide', d3.forceCollide().radius(12))
   .force('center', d3.forceCenter(w / 2, h / 2));
 
